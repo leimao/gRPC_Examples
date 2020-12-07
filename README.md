@@ -47,10 +47,8 @@ In this repository, I implemented gRPC C++ examples using CMake with the best pr
 ### Compile
 
 ```bash
-$ mkdir -p build
-$ cd build
-$ cmake ..
-$ make
+$cmake -B build
+$cmake --build build
 ```
 
 All the executable files would be generated in `build/bin` directory.
